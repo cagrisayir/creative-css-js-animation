@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 66.5%;
+}
+
+img {
+	width: 30rem;
+	height: 30rem;
+	display: block;
+	margin: auto;
+	margin-top: 20rem;
+	transition: transform 2s;
+}
+
+img:hover {
+	/* transform: translate(-50rem, 20rem); */
+	/* transform: scale(2); */
+	/* transform: rotate(1turn); */
+	transform: skew(20deg, 40deg);
+}
