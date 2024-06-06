@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 66.5%;
+}
+
+button {
+	height: 9rem;
+	width: 29rem;
+	color: white;
+	background-color: blue;
+	font-size: 3rem;
+	border: none;
+	/* Animation */
+	/* transition-property: all; */
+	/* transition-duration: 1s; */
+	/* transition-delay: 1s; */
+	/* property duration timing  */
+	transition: all 3s ease-in 2s;
+}
+
+button:hover {
+	background-color: green;
+	color: black;
+	border-radius: 50%;
+}
